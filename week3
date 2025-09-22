@@ -1,0 +1,57 @@
+1. 플러터 프로젝트 구조
+
+lib/main.dart → 앱 시작 파일
+
+pubspec.yaml → 패키지 및 의존성 관리
+
+android/, ios/, web/, test/ 디렉터리 포함
+
+2. 기본 코드 구조
+
+main() 함수 → 앱 실행 시작점
+
+MaterialApp → 앱 전역 설정
+
+Scaffold → 화면 뼈대 (AppBar, Body, FloatingActionButton 등)
+
+3. 위젯 (Widget)
+
+StatelessWidget: 상태가 변하지 않는 UI
+
+StatefulWidget: 상태 변화에 따라 UI 갱신
+
+모든 UI는 위젯 트리로 구성
+
+4. 플러터 주요 위젯
+
+레이아웃 위젯: Row, Column, Stack
+
+입력 위젯: TextField, Button, Slider
+
+리스트 위젯: ListView, GridView
+
+이미지·아이콘: Image.asset, Icon
+
+5. 상태 관리
+
+setState() → 간단한 상태 변경 반영
+
+Provider, Riverpod, BLoC 등 확장 가능
+
+6. 실습 내용
+
+기본 앱 만들기 → 화면 전환, 네비게이션
+
+입력값 받아 처리하기 → 버튼 이벤트, TextField
+
+리스트 뷰 앱 만들기 → 데이터 목록 표시
+
+간단한 계산기 앱 제작
+
+7. Flutter & VSCode 활용
+
+핫 리로드/리스타트 → 개발 속도 극대화
+
+VSCode 단축키로 위젯 자동 생성 (statelessW, statefulW)
+
+디버깅: flutter doctor, Error Lens 활용
